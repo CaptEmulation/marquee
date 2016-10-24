@@ -6,7 +6,8 @@
   "scripts": {
     "test": "exit 0",
     "build": "webpack --config webpack.production.config.js --progress --profile --colors",
-    "start": "webpack-dev-server --progress --profile --colors",
+    "start": " node server",
+    "start:dev": "webpack-dev-server --progress --profile --colors",
     "lint": "eslint --ext js --ext jsx src || exit 0"
   },
   "author": "John Dean <john.holmes.dean@gmail.com>",
